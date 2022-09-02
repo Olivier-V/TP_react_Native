@@ -21,8 +21,8 @@ const ProductList = ({navigation}) => {
               newlist.sort( (a,b) =>{
                 return -(b.id - a.id);
               });
-              setListePokemon([...newlist]);
-              console.log('1');
+            setListePokemon([...newlist]);
+            console.log('1');
             }
           });
       }
