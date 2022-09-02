@@ -10,7 +10,7 @@ import React, {useState} from 'react';
 import CustomButton from '../components/CustomButton';
 import {Camera} from 'react-native-vision-camera';
 
-const EditProfil = ({navigation}) => {
+const Snap = ({navigation}) => {
   const [modalVisible, setModalVisible] = useState(false);
 
   return (
@@ -69,4 +69,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default EditProfil;
+export default Snap;
