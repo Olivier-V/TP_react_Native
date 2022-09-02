@@ -24,6 +24,9 @@ const ProductList = ({navigation}) => {
             setListePokemon([...newlist]);
             console.log('1');
             }
+          })
+          .catch( err =>{
+            console.log(err);
           });
       }
 
